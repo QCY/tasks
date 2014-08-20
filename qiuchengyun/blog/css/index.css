@@ -1,0 +1,88 @@
+body{
+	background:#f4f4ec;
+}
+.change{
+	background: #eee;
+	background: -webkit-linear-gradient(#fff 0%, #ddd 100%);
+	background: -moz-linear-gradient(#fff 0%, #ddd 100%);
+	background: -o-linear-gradient(#fff 0%, #ddd 100%);
+	background: linear-gradient(#fff 0%, #ddd 100%);
+}
+.border_bottom{
+	border-bottom: 2px dotted #999;
+}
+.content{
+	padding-top: 100px;
+	font: 14px 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+}
+.content_mask{
+	width: 80%;
+	margin: 0 auto;
+}
+.title{
+	float: left;
+	width: 12%;
+	margin: 15px 0 0 15px;
+}
+.title h1{
+	font-size: 16px;
+	font-weight: 900;
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+}
+.title a{
+	text-decoration: none;
+	color: #000;
+}
+.title p{
+	margin-top: 10px;
+}
+.title a:hover{
+	color: #666;
+}
+.contain{
+	display: table-cell;
+	padding: 20px 20px 20px 0;
+}
+.contain h1{
+	font-size: 18px;
+	font-weight: 900;
+}
+.contain p{
+	margin-top: 10px;
+	text-indent: 20px;
+}
+.contain a{
+	text-decoration: none;
+	color: #333;
+}
+.contain a:hover{
+	color: #999;
+}
+.share img{
+	width: 80%;
+	margin-top: 10px;
+	border: 3px solid #333;
+	border-radius: 5%;
+}
+.share img:hover{
+	opacity:0.6;
+	filter:alpha(opacity:60);
+	*zoom:1;
+}
+.imgBlock{
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+	width: 20%;
+}
+.imgBlock img{
+	width: 80%;
+	margin: 0 auto;
+}
+.imgBlock img:hover{
+	opacity:0.6;
+	filter:alpha(opacity:60);
+	*zoom:1;
+}

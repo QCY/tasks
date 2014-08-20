@@ -1,0 +1,72 @@
+.font_12px_A{
+	font: 12px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.mask{
+	position: fixed;
+	display: table;
+	width: 100%;
+	height: 100%;
+	background: #aaa;
+}
+.hack{
+	display: table-cell;
+	vertical-align: middle;
+}
+.box{
+	width: 200px;
+	margin:0 auto;
+	padding: 10px 10px 20px 10px;
+	font-size: 0px;
+	border-radius: 5px;
+	background: #fff;
+}
+.input input{
+	display: block;
+	width: 196px;
+	height: 30px;
+	text-indent: 5px;
+	margin-top: 15px;
+}
+.function input{
+	display: inline-block;
+	float: left;
+	margin: 12px 3px 0 0;
+}
+.function span{
+	display: inline-block;
+	margin-top: 10px;
+	color: #333;
+}
+.function a{
+	float: right;
+	margin-top: 10px;
+	color: #333;
+	text-decoration: none;
+}
+.function a:hover{
+	color: #999;
+}
+.logButton a{
+	display: block;
+	width: 200px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 2px;
+	color: #fff;
+	font: 14px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.login{
+	padding: 5px 0;
+	background: #999;
+}
+.login:hover{
+	background: #666;
+}
+.reg{
+	padding: 5px 0;
+	background: #999;
+}
+.reg:hover{
+	background: #666;
+}

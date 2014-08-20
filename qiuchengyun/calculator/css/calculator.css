@@ -1,0 +1,48 @@
+.calculator{
+	width: 290px;
+	margin: 150px auto 0 auto;
+}
+.show{
+	width: 288px;
+	height: 48px;
+	border: 1px solid #999;
+	background: #f4f4f4;
+}
+.show p{
+	height: 36px;
+	font: 24px Helvetica, Arial, sans-serif;
+	line-height: 36px;
+	text-align: right;
+	margin: 6px 10px;
+	overflow: hidden;
+}
+#input{
+	margin-top: 4px;
+	font-size: 0px;
+}
+#input span{
+	display: inline-block;
+	width: 64px;
+	height: 35px;
+	cursor: pointer;
+	text-align: center;
+	font: 16px Helvetica, Arial, sans-serif;
+	line-height: 35px;
+	border: 1px solid #999;
+}
+#input span:hover{
+	border: 1px solid #666;
+}
+.marginR{
+	margin: 8px 8px 0 0;
+}
+.num{
+	background: #f4f4f4;
+}
+.symbol{
+	background: #d1d1d1;
+}
+.symbol1{
+	background: #d1d1d1;
+	margin-left: 148px;
+}
