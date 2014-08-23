@@ -1,0 +1,49 @@
+.main{
+	position: relative;
+	width: 300px;
+	margin: 200px auto 0 auto;
+	font-size: 0px;
+	background: #ccc;
+}
+.block{
+	position: absolute;
+	display: inline-block;
+	width: 99px;
+	margin: 1px 1px 0 0;
+	height: 99px;
+	cursor: pointer;
+	background: #666;
+}
+.block:hover{
+	background: #999;
+}
+.block p{
+	height: 99px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 99px;
+	font-weight: bold;
+	color: #fff;
+}
+input{
+	position: absolute;
+	top: 320px;
+	left: 30px;
+	width: 60px;
+	height: 30px;
+	background: #666;
+	border:none;
+	color: #fff;
+}
+input:hover{
+	background: #999;
+}
+input:focus{
+	outline:none;
+}
+.score{
+	position: absolute;
+	top: 325px;
+	right: 60px;
+	font-size: 18px;
+}
